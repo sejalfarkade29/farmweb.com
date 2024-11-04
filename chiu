@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        background-color: #f1e8bc;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="search-header">
+      <img
+        src="farmweblogo.png"
+        alt="main-icon"
+        class="search-page main-icon"style="border-radius: 500px" width="=300px" height="300px" 
+      />
+      <div class="search-text">
+        <h1 class="please">Search</h1>
+        <h2>Through the 23,000+ varieties</h2>
+        <div class="search-bar">
+          <input
+            type="search"
+            name=""
+            id=""
+            class="search-input"
+            placeholder="Type a variety name or a characterstic"
+          />
+          <button class="search-button">search</button>
+        </div>
+      </div>
+      <nav class="search-page-index index-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portal.html">Farmer's Portal</a></li>
+          <li><a href="#">Search</a></li>
+          <li><a href="med-rice.html">Medicinal Rice Varieties</a></li>
+          <li><a href="index.html#contact-form">Contact Us</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <section class="footer" style="margin-top: 5%; background-color: #ede1a4">
+      <img
+        src="farmweblogo.png"
+        alt="icon"
+        class="search-page main-icon" width="=300px" height="70px" 
+      />
+      <div>
+        <a href="#top" style="color: #7d7831">back to top.</a>
+        <a href="index.html" style="color: #7d7831">back home.</a>
+      </div>
+    </section>
+  </body>
+</html>
